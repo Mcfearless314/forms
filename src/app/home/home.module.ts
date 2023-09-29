@@ -6,6 +6,7 @@ import {HomePage, MyNewComponent} from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import {HttpClientModule} from "@angular/common/http";
+import {AddArticleComponentComponent} from "../add-article-component/add-article-component.component";
 
 
 @NgModule({
@@ -17,6 +18,6 @@ import {HttpClientModule} from "@angular/common/http";
         ReactiveFormsModule,
       HttpClientModule
     ],
-  declarations: [HomePage, MyNewComponent]
+  declarations: [HomePage, MyNewComponent, AddArticleComponentComponent]
 })
 export class HomePageModule {}

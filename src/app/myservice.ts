@@ -1,9 +1,9 @@
 import {Injectable} from "@angular/core";
-import {Product} from "./home/home.page";
+import {Article} from "./home/home.page";
 
 @Injectable({
   providedIn: 'root'
 })
 export class Myservice {
-  products: Product[] = [];
+  articles: Article[] = [];
 }
